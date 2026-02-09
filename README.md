@@ -337,6 +337,8 @@ $menu = [
 
 # 💾 Samostatné úkoly
 
+## 1️⃣ Obsah webu
+
 Tento web bude prezentací fiktivní **malé lokální firmy nabízejíci IT služby** (internet, servis, zabezpečení apod.). Texty mohou být krátké, ale **musí odpovídat zadání**.
 
 
@@ -384,5 +386,39 @@ Stránka bude obsahovat:
 
 Na závěr krátká věta typu: „Těšíme se na spolupráci.“
 
+## 2️⃣ Uložení na školní GitLab
 
+Pokud máte propojení ssh klíči z předchozích cvičení, je to otázka 2 minut:
 
+1. Odpojení vazby GitHubu:
+
+```
+git remote remove origin
+```
+
+2. Připojení svého repozitáře:
+
+```
+git remote add origin git@gitlab.panska.cz:10XPrijmeniJ/net.git
+```
+
+3. Vytvoření commitu (před odesláním musí být větev "čistá" - dokončení s commitem):
+
+```
+git add -A
+git commit -m "Cílová verze projektu"
+```
+
+4. Odeslání repozitáře:
+
+```
+git push origin main
+```
+
+5. Závěrečná kontrola:
+
+```
+git log --oneline
+```
+
+Hotovo :)

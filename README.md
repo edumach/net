@@ -16,7 +16,7 @@ Pomocí klonování repozitáře si v adresáři webového serveru TuX zprovozn�
 
 ```
 $ cd www
-$ git clone https://gitlab.panska.cz/machac/net
+$ git clone https://github.com/edumach/net
 ```
 
 a vyzkoušejte, zda funguje:

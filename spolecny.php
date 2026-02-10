@@ -1,6 +1,6 @@
 <?php
 // definice názvu webu (jako konstanta)
-define("NAZEV_WEBU", "Cvičný dynamický web");
+define("NAZEV_WEBU", "Cvičný web pro výuku PHP a SQL");
 
 
 function polozky_menu() {
